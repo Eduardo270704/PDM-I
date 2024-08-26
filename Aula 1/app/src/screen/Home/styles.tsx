@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
     color: '#fef'
   }
+  
 });
 
 export default styles;

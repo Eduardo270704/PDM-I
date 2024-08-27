@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 4,
     borderColor: "#cbcbcb",
+    alignItems: "center",
   },
 
   title: {
@@ -25,46 +26,10 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 
-  label: {
-    color: "#ffffff",
-    fontSize: 16,
-    marginBottom: 4,
-  },
-
-  input: {
-    backgroundColor: "#ffffff",
-    padding: 10,
-    marginBottom: 16,
-    borderRadius: 4,
-  },
-
-  result: {
-    marginTop: 16,
-    color: "#fff",
-    fontSize: 18,
-  },
-
-  button: {
-    backgroundColor: "#f7b110",
-    padding: 12,
-    borderRadius: 4,
-    flex: 1,
-    alignItems: "center",
-    marginRight: 8,
-  },
-
-  buttonText: {
-    fontWeight: "bold",
-  },
-
-  buttonContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
-    marginTop: 16,
-  },
-
-  picker: {
-    backgroundColor: "#ffffff",
+  fatec: {
+    width: 140,
+    height: 140,
+    resizeMode: "contain",
   },
 });
 

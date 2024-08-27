@@ -1,7 +1,7 @@
 import { View, Image, TouchableOpacity, Alert } from "react-native";
 import styles from "./styles";
 import React from "react";
-import logo from "../../assets/adaptive-icon.png";
+import { logo } from "../../assets";
 
 export default function Cinco() {
   const createAlert = () => Alert.alert("Boa noite!", "", [{ text: "OK" }]);

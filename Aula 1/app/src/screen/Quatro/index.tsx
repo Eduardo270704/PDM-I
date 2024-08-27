@@ -1,7 +1,7 @@
 import { View, Image } from "react-native";
 import styles from "./styles";
 import React from "react";
-import logo from "../../assets/adaptive-icon.png";
+import { logo } from "../../assets";
 
 export default function Quatro() {
   return (
